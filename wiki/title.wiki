@@ -8,13 +8,13 @@
 = Как использовать? =
 
 Для работы должен быть установлен .NET Framework 2.0,
-а также потребуется бесплатный компилятор в Mobipocket, взять его последнюю версию можно отсюда:
+а также потребуется Mobigen - бесплатный компилятор в Mobipocket, взять его последнюю версию можно отсюда:
 
-http://www.mobipocket.com/dev/default.asp
+http://www.mobipocket.com/dev/
 
-или текущую на момент написания версию отсюда:
+Ищите ссылку на:   
+Command line tool to build Mobipocket eBooks (supports IDPF 1.0 and IDPF 2.0 epub format)
 
-http://fb2mobi.googlecode.com/files/mobigen.exe
 
 Распаковать fb2mobi.zip, в эту же папку положить загруженный и распакованный mobigen.exe.
 
