@@ -1,38 +1,19 @@
 #summary One-sentence summary of this page.
 #labels Featured,Phase-Requirements
 
-= Что это? =
+= What is this? =
 
-Конвертор из FB2 в Mobipocket reader.
-Текущая версия 1.1.0 /24.04.2010/
+Converter from FB2 to Mobipocket reader. Current version 1.1.0 / 24.04.2010 /
 
-= Как использовать? =
-
-Для работы должен быть установлен .NET Framework 2.0,
-а также потребуется kindlegen - бесплатный компилятор в Mobipocket, взять его последнюю версию можно отсюда:
+How do I use?
+To work must be installed. NET Framework 2.0, as well as the need kindlegen - free compiler in Mobipocket, get the latest version from here:
 
 [http://www.amazon.com/gp/feature.html?docId=1000234621]
 
-Качайте:
-KindleGen for Windows (2003, XP, Vista, 7)
+Swing: KindleGen for Windows (2003, XP, Vista, 7)
 
-Распаковать fb2mobi.zip, в эту же папку положить загруженный и распакованный kindlegen.exe
+Unpack fb2mobi.zip, in the same folder to put downloaded and unpacked kindlegen.exe
 
-Для конвертирования передавать fb2 файл в fb2mobi.exe как параметр.<br>
-Например можно кликнуть на fb2 правой кнопкой, выбрать "Открыть как..." 
-и для открытия указать fb2mobi.exe.<br>
-Можно fb2 файл перетащить мышкой и кинуть на fb2mobi.exe<br>
-
-= Часто задаваемый вопрос =
--Можно ли добавить обработку сразу папки с файлами<br>
--Можно, но лень, это и так легко можно сделать стандартными средствами
-из командной строки, например:<br>
-`for %a in (fb2folder\*.fb2) do fb2mobi.exe "%~fa"`<br>
-обработает все fb2 файлы в папке fb2folder<br>
-
-*24.04.2010 Версия 1.1.0*<br>
-{{{*}}}Исправлен баг с падением при запуске из bat файла без указания полного пути<br>
-+Добавлена поддержка mobi компилятора Amazon Kindle<br>
-
-*07.04.2008 Версия 1.0.1*<br>
-+Все файлы, независимо от исходного языка в fb2 теперь преобразуются в UTF-8
+To convert a file to send fb2 fb2mobi.exe as a parameter.<br>
+For example you can click on fb2 right click, select "Open as ..." and for the opening point fb2mobi.exe.
+Can fb2 file drag and throw on fb2mobi.exe 
