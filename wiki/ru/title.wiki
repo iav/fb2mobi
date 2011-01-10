@@ -30,9 +30,11 @@ KindleGen for Windows (2003, XP, Vista, 7)
 `for %a in (fb2folder\*.fb2) do fb2mobi.exe "%~fa"`<br>
 обработает все fb2 файлы в папке fb2folder<br>
 
+= История изменений =
+
 *11.01.2011 Версия 1.1.0 silent release*<br>
 Внесены изменения в FB2_2_opf.xsl предложенные *Aleph*:
-http://www.the-ebook.org/forum/viewtopic.php?p=154552#154552
+[http://www.the-ebook.org/forum/viewtopic.php?p=154552#154552]
 
 *24.04.2010 Версия 1.1.0*<br>
 {{{*}}}Исправлен баг с падением при запуске из bat файла без указания полного пути<br>
