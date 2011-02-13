@@ -1,10 +1,6 @@
 #summary Command line converter from FB2 to Mobipocket and Kindle
 #labels Phase-Requirements Phase-Deploy
 
-= What is this? =
-
-Command line converter from FB2 to Mobipocket and Kindle. Current version 2.0.0b / 13.02.2011 /
-
 *How do I use?*
 To work must be installed. NET Framework 2.0, as well as the need kindlegen - free compiler in Mobipocket, get the latest version from here:
 
