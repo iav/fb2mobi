@@ -4,7 +4,7 @@
 *How do I use?*
 To work must be installed. NET Framework 2.0, as well as the need kindlegen - free compiler in Mobipocket, get the latest version from here:
 
-[http://www.amazon.com/gp/feature.html?docId=1000234621]
+[href="http://www.amazon.com/kindlepublishing]
 
 Swing: KindleGen for Windows (2003, XP, Vista, 7)
 
