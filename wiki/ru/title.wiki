@@ -6,7 +6,7 @@
 Для работы должен быть установлен .NET Framework 2.0,
 а также потребуется kindlegen - бесплатный компилятор в Mobipocket, взять его последнюю версию можно отсюда:
 
-[http://www.amazon.com/gp/feature.html?docId=1000234621]
+[http://www.amazon.com/kindlepublishing]
 
 Качайте:
 KindleGen for Windows (2003, XP, Vista, 7)
