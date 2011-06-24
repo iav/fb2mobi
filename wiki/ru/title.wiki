@@ -39,11 +39,13 @@ Usage: fb2mobi <file.fb2> [<output.mobi>] [{-,/,--}param]
 -Дайте мне бат файл, который будет обрабатывать все файлы в директории, котрые имеют расширение .fb2 и .fb2.zip.<br>
 -А нельзя ли, что бы он и папки и подпапки обрабатывал ?<br>
 
--Вот так, например:
-`for /R "%~1\" %%a in ("*.fb2.zip") do "%~dp07za.exe" e "%%~a" -y -o"%%~dpa"
+-Можно, вот так, например:<br>
+{{{
+for /R "%~1\" %%a in ("*.fb2.zip") do "%~dp07za.exe" e "%%~a" -y -o"%%~dpa"
 for /R "%~1\" %%a in ("*.fb2") do "%~dp0fb2mobi.exe" "%%~a" -nc -cl
 for /R "%~1\" %%a in ("*.fb2.zip") do del /f /q "%%~a"
-for /R "%~1\" %%a in ("*.fb2") do del /f /q "%%~a"`<br>
+for /R "%~1\" %%a in ("*.fb2") do del /f /q "%%~a"
+}}}
 bat файл положить в ту же папку, где лежит fb2mobi и kindlegen.
 Дополнительно скачать и распаковать туда же 7-zip, лучше всего подойдет: 7-Zip Command Line Version 32-bit, брать отсюда: [http://7-zip.org/download.html]<br>
 Папку для обработки передавать bat файлу как параметр.<br>
