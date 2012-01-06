@@ -21,4 +21,7 @@ Usage: fb2mobi <file.fb2> [<output.mobi>] [{-,/,--}param]
   -cl    Clean output dir after convert.
   -us    Use source file name as output.
   -nt    No translite output file name.
+  -v0    Suppress verbose.
+  -v1    Suppress verbose. Only output file name.
+
 }}}
